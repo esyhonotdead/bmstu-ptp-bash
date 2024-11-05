@@ -7,6 +7,6 @@
 if [[ -z "$VAR1" || -z "$VAR2" ]]; then
     echo "ERROR"
 else
-    sum=$((VAR1 + VAR2))
-    echo "$sum"
+    result=$((VAR1 + VAR2))
+    echo "$result"
 fi

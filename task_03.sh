@@ -8,10 +8,10 @@ if [[ -z "$VAR1" ]]; then
     echo "ERROR"
 else
     if [[ "$VAR1" =~ ^-?[0-9]+$ ]]; then
-        square=$((VAR1 * VAR1))
-        echo "$square"
+        result=$((VAR1 * VAR1))
+        echo "$result"
     else
-        square="${VAR1}mama${VAR1}"
-        echo "$square"
+        result="${VAR1}mama${VAR1}"
+        echo "$result"
     fi
 fi
